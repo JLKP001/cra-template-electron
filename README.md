@@ -35,4 +35,4 @@ npm run dist:linux
 These commands will generate distributables for Windows, macOS and Linux respectively.
 By default, the distributables will be in NSIS (Windows), dmg (macOS) and deb (linux) form.
 
-_Remember to change the author, description, build.appId and build.productName before creating a distributable_
+_Remember to change the author, description, build.appId and build.productName in `package.json` before creating a distributable_
