@@ -1,11 +1,12 @@
 {
   "name": "cra-template-electron-builder",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "keywords": [
     "react",
     "create-react-app",
     "template",
-    "electron"
+    "electron",
+    "builder"
   ],
   "description": "The Electron template for Create React App.",
   "repository": {

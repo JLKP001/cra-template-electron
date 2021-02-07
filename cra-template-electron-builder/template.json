@@ -1,7 +1,5 @@
 {
   "package": {
-    "author": "John Doe <john@doe.com>",
-    "description": "Application built using CRA Electron Template",
     "dependencies": {
       "@testing-library/jest-dom": "^5.11.4",
       "@testing-library/react": "^11.1.0",
@@ -15,16 +13,19 @@
       "electron": "^11.2.1",
       "electron-builder": "^22.9.1",
       "electron-devtools-installer": "^3.1.1",
+      "electronmon": "^1.1.2",
       "wait-on": "^5.2.1"
     },
     "eslintConfig": {
       "extends": ["react-app", "react-app/jest"]
     },
     "scripts": {
-      "dev": "concurrently -k \"cross-env BROWSER=none npm start\" \"wait-on http://localhost:3000 && electron .\"",
+      "start": "concurrently -k \"cross-env BROWSER=none npm run react-start\" \"wait-on http://localhost:3000 && electronmon .\"",
       "dist:win": "npm run build && electron-builder -w -c.extraMetadata.main=build/electron.js",
       "dist:mac": "npm run build && electron-builder -m -c.extraMetadata.main=build/electron.js",
-      "dist:linux": "npm run build && electron-builder -l -c.extraMetadata.main=build/electron.js"
+      "dist:linux": "npm run build && electron-builder -l -c.extraMetadata.main=build/electron.js",
+
+      "react-start": "react-scripts start"
     },
     "homepage": "./",
     "main": "./public/electron.js",

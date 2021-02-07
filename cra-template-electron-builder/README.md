@@ -9,12 +9,12 @@ To create a React-Electron application and run it in dev mode, run:
 ```
 npx create-react-app my-app --template electron-builder
 cd my-app
-npm run dev
+npm start
 ```
 
 These commands will do the following:
 
-1. Create a React-Electron application called `my-app` using the CRA [`electron-builder`](https://www.npmjs.com/package/cra-template-electron-builder) template.
+1. Create a React-Electron application called `my-app` using the CRA [electron-builder](https://www.npmjs.com/package/cra-template-electron-builder) template.
 2. Change the current directory to `my-app`
 3. Launch the application in dev mode, with hot reloading and the Developer tools console installed with [React DevTools extension](https://github.com/facebook/react/tree/master/packages/react-devtools-extensions)
 
@@ -22,7 +22,7 @@ For more information on how to use CRA, see the [Create React App docs](https://
 
 ## Distribution
 
-This template uses [`electron-builder`](https://www.electron.build/) to package and build a ready for distribution application for Windows, macOS and Linux.
+This template uses [electron-builder](https://www.electron.build/) to package and build a ready for distribution application for Windows, macOS and Linux.
 
 To build the application, run:
 
@@ -36,3 +36,13 @@ These commands will generate distributables for Windows, macOS and Linux respect
 By default, the distributables will be in NSIS (Windows), dmg (macOS) and deb (linux) form.
 
 _Remember to change the author, description, build.appId and build.productName in `package.json` before creating a distributable_
+
+## Typescript
+
+For creating an application using Typescript, use the CRA [electron-builder-typescript](https://www.npmjs.com/package/cra-template-electron-builder-typescript) template.
+
+```
+npx create-react-app my-app --template electron-builder-typescript
+cd my-app
+npm start
+```
