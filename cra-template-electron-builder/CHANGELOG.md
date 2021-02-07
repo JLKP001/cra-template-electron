@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.2.0] - 2021-02-07
+
+### Added
+
+- Added electronmon to enable hot reloading of electron during development
+
 ## [1.1.1] - 2021-02-06
 
 ### Changed
