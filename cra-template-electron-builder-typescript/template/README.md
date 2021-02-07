@@ -28,7 +28,7 @@ _Remember to change the author, description, build.appId and build.productName i
 
 ### `npm run dist:linux`
 
-Package and build a ready for distribution application for Linux. This template uses [electron-builder](https://www.electron.build/) for packaging and by default outputs a deb installer for WinLinuxdows.
+Package and build a ready for distribution application for Linux. This template uses [electron-builder](https://www.electron.build/) for packaging and by default outputs a deb installer for Linux.
 
 _Remember to change the author, description, build.appId and build.productName in `package.json` before creating a distributable_
 
