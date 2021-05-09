@@ -13,6 +13,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 This will also start the FastAPI server running on [http://localhost:8000](http://localhost:8000), allowing for access to a Python API. By default, the API requires a shared `SECRET_KEY` which is randomly generated when the server is started.
 
+Note that Python >3.6 and Python dependencies specified in `requirements.txt` are required for development.
+
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
@@ -21,6 +23,7 @@ You will also see any lint errors in the console.
 Package and build a ready for distribution application for Windows. This template uses [electron-builder](https://www.electron.build/) for packaging and by default outputs a NSIS installer for Windows.
 
 Note that FastAPI and Uvicorn are also packaged up within the installer.
+It is highly recommended to perform the build within a project virtual environment to minimise build size.
 
 _Remember to change the author, description, build.appId and build.productName in `package.json` before creating a distributable_
 
@@ -29,6 +32,7 @@ _Remember to change the author, description, build.appId and build.productName i
 Package and build a ready for distribution application for macOS. This template uses [electron-builder](https://www.electron.build/) for packaging and by default outputs a dmg installer for macOS.
 
 Note that FastAPI and Uvicorn are also packaged up within the installer.
+It is highly recommended to perform the build within a project virtual environment to minimise build size.
 
 _Remember to change the author, description, build.appId and build.productName in `package.json` before creating a distributable_
 
@@ -37,6 +41,7 @@ _Remember to change the author, description, build.appId and build.productName i
 Package and build a ready for distribution application for Linux. This template uses [electron-builder](https://www.electron.build/) for packaging and by default outputs a deb installer for Linux.
 
 Note that FastAPI and Uvicorn are also packaged up within the installer.
+It is highly recommended to perform the build within a project virtual environment to minimise build size.
 
 _Remember to change the author, description, build.appId and build.productName in `package.json` before creating a distributable_
 

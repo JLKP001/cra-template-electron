@@ -6,9 +6,12 @@ This is a create-react-app (CRA) template for Electron-Python applications based
 
 To create a React-Electron-Python application and run it in dev mode, run:
 
+Note that Python >3.6 is required for development.
+
 ```
 npx create-react-app my-app --template electron-python-fastapi
 cd my-app
+python3 -m pip install -r requirements.txt
 npm start
 ```
 
