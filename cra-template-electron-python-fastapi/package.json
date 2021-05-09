@@ -1,0 +1,30 @@
+{
+  "name": "cra-template-electron-python-fastapi",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "electron",
+    "builder",
+    "python",
+    "fastapi"
+  ],
+  "description": "The Electron Python FastAPI template for Create React App.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JLKP001/cra-template-electron.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "bugs": {
+    "url": "https://github.com/JLKP001/cra-template-electron/issues"
+  },
+  "main": "template.json",
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
